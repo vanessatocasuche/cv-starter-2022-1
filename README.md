@@ -6,6 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### `yar install`
+
+Instalar paquetes necesaios que existen en la dependencia package.json
+...
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
