@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.linkSideBar{
-    @apply flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700;
+.card{
+  display: flex;
+  border-radius: 2;
+  background-color: #EFEFEF;
+  padding: ;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.card-image {
+  width: 100%;
+  height: auto;
 }

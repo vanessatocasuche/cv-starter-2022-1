@@ -1,15 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from 'layouts/Layout';
-import Home from 'pages/Home';
-import Informacionbasica from 'pages/Informacionbasica';
+import Index from 'pages/Index';
+import Informacionacademica from 'pages/Informacionacademica';
+import Sidebar from 'component/Sidebar';
 
 const App = () => (
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Layout />}>
-        <Route index element={<Home />} />
-      </Route>
-      <Route path='/informacionbasica' element={<Informacionbasica />} />
+      <Route path='/informacionbasica' element={<Index />} />
+      <Route path='/informacionacademica' element={<Informacionacademica />} />
+      <Route path='/sidebar' element={<Sidebar />} />
     </Routes>
   </BrowserRouter>
 );
