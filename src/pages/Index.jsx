@@ -24,22 +24,22 @@ const Index = () => (
     </div>
 
     <div className='flex flex-wrap justify-center mt-10'>
-      <a href='mailto:vanetocasuche@gmail.com' target='_blank'>
-        <div className='flex-col overflow-hidden sm:w-64 ml-5 mr-5 mb-5 text-gray-800 text-center rounded-lg bg-green-600/20 p-3 shadow-md w-full hover:bg-green-600/40 transition-all duration-50'>
+      <a href='mailto:vanetocasuche@gmail.com' target='_blank' className='mx-9 mb-5'>
+        <div className='flex-col overflow-hidden  text-gray-800 text-center rounded-lg bg-green-600/20 p-3 shadow-md w-full hover:bg-green-600/40 transition-all duration-50'>
             <span className='font-light mb-7'>Correo</span>
             <img src={logoAT} alt='icon' className='mt-4 mb-2'/>
             <span className='font-semibold text-lime-700'>vanetocasuche@gmail.com</span>
         </div>
       </a>
-      <a href='https://www.linkedin.com/in/vanessatocasuche/' target='_blank'>
-        <div className='flex-col overflow-hidden sm:w-64 ml-5 mr-5 mb-5 text-gray-800 text-center rounded-lg bg-green-600/20 p-3 shadow-md w-full hover:bg-green-600/40 transition-all duration-50'>
+      <a href='https://www.linkedin.com/in/vanessatocasuche/' target='_blank'className='mx-9 mb-5'>
+        <div className='flex-col overflow-hidden  text-gray-800 text-center rounded-lg bg-green-600/20 p-3 shadow-md w-full hover:bg-green-600/40 transition-all duration-50'>
             <span className='font-light mb-7'>LinkedIN</span>
             <img src='{logoAT}' alt='icon' className='mt-4 mb-2'/>
             <span className='font-semibold text-lime-700'>vanessatocasuche</span>
         </div>
       </a>
-      <a href='https://github.com/vanessatocasuche' target='_blank'>
-        <div className='flex-col overflow-hidden sm:w-64 ml-5 mr-5 mb-5 text-gray-800 text-center rounded-lg bg-green-600/20 p-3 shadow-md w-full hover:bg-green-600/40 transition-all duration-50'>
+      <a href='https://github.com/vanessatocasuche' target='_blank' className='mx-9 mb-5'>
+        <div className='flex-col overflow-hidden   text-gray-800 text-center rounded-lg bg-green-600/20 p-3 shadow-md w-full hover:bg-green-600/40 transition-all duration-50'>
             <span className='font-light mb-7'>GitHub</span>
             <img src='{logoAT}' alt='icon' className='mt-4 mb-2'/>
             <span className='font-semibold text-lime-700'>vanessatocasuche</span>
