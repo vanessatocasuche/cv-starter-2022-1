@@ -15,16 +15,24 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/informacionbasica' element={<Index />} />
-        <Route path='/informacionacademica' element={<Informacionacademica />} />
+        <Route
+          path='/informacionacademica'
+          element={<Informacionacademica />}
+        />
         <Route path='/informacionlaboral' element={<Informacionlaboral />} />
-        <Route path='/conocimientoseintereses' element={<Conocimientoseintereses />} />
+        <Route
+          path='/conocimientoseintereses'
+          element={<Conocimientoseintereses />}
+        />
         <Route path='/idiomas' element={<Idiomas />} />
         <Route path='/hobbies' element={<Hobbies />} />
-        <Route path='/cursosycertificaciones' element={<Cursosycertificaciones />} />
+        <Route
+          path='/cursosycertificaciones'
+          element={<Cursosycertificaciones />}
+        />
       </Routes>
     </Router>
   );
 }
-
 
 export default App;
